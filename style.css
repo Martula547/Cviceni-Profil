@@ -29,7 +29,7 @@ body {
 }
 .profil {
 	background-color: #31363b; 
-	max-width: 600px;
+	max-width: 300px;
 	color: #d6d6d6;
 	margin-left: auto;
 	margin-right: auto;
@@ -60,6 +60,12 @@ h1 {
 	text-transform: uppercase;
 	padding: 0;
 	}
+.odkazy a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;	
+	outline: none;			
+}
 .jmeno {
 	padding: 20px;
 }
@@ -79,11 +85,32 @@ a {
 .facebook, 
 .twitter {
 	display: inline-block;
-	width: 50%;
+	width: 49%;
 	text-decoration: none;
 }
 .portfolio,
 .facebook,
 .twitter {
-	padding: 5px 0;
+	text-align: center;
+	font-weight: bold;
+}
+.portfolio {
+	border-top: 1px solid #d4d4d4;
+	border-bottom: 1px solid #d4d4d4;
+	text-decoration: none;
+}
+.twitter {
+	border-left: 1px solid #d4d4d4;
+}
+.twitter a:hover,
+.twitter a:focus {
+	background-color: #1da1f2;
+}
+.facebook a:hover,
+.facebook a:focus {
+	background-color: #3b5998;
+}
+.portfolio a:hover,
+.portfolio a:focus {
+	background-color: #e74c3c;
 }
